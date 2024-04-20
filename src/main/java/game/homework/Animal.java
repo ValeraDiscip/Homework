@@ -37,7 +37,7 @@ public abstract class Animal extends GameField {
     public void setAlive(boolean alive) {
         isAlive = alive;
         if (!alive) {
-            this.health = 0;
+            health = 0;
         }
     }
 
